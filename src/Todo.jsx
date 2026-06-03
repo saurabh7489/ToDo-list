@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from "react";
 import './Todo.css'
 
 const Todo = () => {
@@ -7,7 +7,7 @@ const Todo = () => {
 
 
 
-function Todo() {
+
   return (
     <div>
 <h1>ToDo List</h1>
@@ -43,7 +43,7 @@ placeholder='ToDo list'
 
   
     
-}
+
 
 
 export default Todo
